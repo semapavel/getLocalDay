@@ -6,5 +6,5 @@ function getLocalDay(date){
 	};
 	return day;
 }
-let date = new Date(2012, 0, 8);  // 3 января 2012 года
-alert( getLocalDay(date) );        // нужно вывести "ВТ"
+let date = new Date(2012, 0, 8);  // 8 января 2012 года
+alert( getLocalDay(date) );        // 7
